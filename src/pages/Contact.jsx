@@ -8,8 +8,8 @@ const Contact = () => {
               Contact <span className='section-title-span'>us</span>
             </h1>
           </div>
-          <div className='skeletonCustom p-10 w-[30rem] md:w-[40rem] grid m-auto'>
-            <form action=''>
+          <div className='skeletonCustom p-10 w-[20rem] md:w-[40rem] grid m-auto'>
+            <form action='' className='m-auto  grid h-full w-full'>
               <label className='input input-bordered flex items-center gap-2 glass'>
                 Name
                 <input type='text' className='grow' placeholder='Your Name' />
@@ -27,7 +27,7 @@ const Contact = () => {
                 <input type='text' className='grow' placeholder='+94' />
               </label>
               <textarea
-                className='textarea textarea-bordered w-[400px] md:w-[576px] h-60 glass mt-6'
+                className='textarea textarea-bordered w-[15rem] md:w-[576px] h-60 glass mt-6'
                 placeholder='Why do you want to join Panadura Toastmasters Club'
               ></textarea>
               <button
