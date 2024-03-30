@@ -4,9 +4,8 @@ const HomeLayout = () => {
   return (
     <>
       <Navbar />
-
       {/* <section className='align-element py-20 '> */}
-      <Outlet className='align-element py-20 h-full' />
+      <Outlet />
       {/* </section> */}
       <Footer />
     </>

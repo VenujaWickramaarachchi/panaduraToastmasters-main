@@ -1,3 +1,4 @@
+import { InfiniteMovingCards } from '.'
 import SlickCarousel from './SlickCarousel'
 
 const Exco = () => {
@@ -8,7 +9,8 @@ const Exco = () => {
           Meet Our <span className='section-title-span'>exco</span>
         </h1>
       </div>
-      <div className='grid '>
+      <div className='h-[25rem]'>
+        <InfiniteMovingCards />
         <SlickCarousel />
       </div>
     </section>

@@ -20,9 +20,10 @@ const SlickCarousel = () => {
   }
 
   return (
-    <section className='slick-container overflow-hidden skeleton '>
+    <section className='slick-container overflow-hidden skeleton md:hidden '>
       <Slider {...settings}>
         {excoData.map((member) => {
+          console.log('where is this')
           const { id } = member
           return <ExcoCard key={id} {...member} />
         })}

@@ -5,8 +5,8 @@ import { SocialIcons } from '../features'
 
 const Navbar = () => {
   return (
-    <nav className='bg-black/20 shadow-sm shadow-primary transition duration-600 ease-in-out hover:shadow-md hover:shadow-primary/50'>
-      <div className='navbar align-element '>
+    <nav className='bg-black/20 shadow-sm shadow-primary transition duration-600 ease-in-out hover:shadow-md hover:shadow-primary/50 '>
+      <div className='navbar align-element  '>
         <div className='navbar-start '>
           {/* TITLE */}
           <NavLink

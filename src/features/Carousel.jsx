@@ -2,16 +2,30 @@ import { FiChevronLeft, FiChevronRight } from 'react-icons/fi'
 import { useEffect, useState } from 'react'
 import { FaQuoteRight } from 'react-icons/fa'
 
-import hero1 from '../assets/hero1.jpg'
+import hero1 from '../assets/hero1.png'
 import hero2 from '../assets/hero2.png'
-import hero3 from '../assets/hero3.jpg'
-import hero4 from '../assets/hero4.jpg'
-import hero5 from '../assets/hero5.jpg'
-import hero6 from '../assets/hero6.jpg'
-import hero7 from '../assets/hero7.jpg'
-import hero8 from '../assets/hero8.jpg'
+import hero3 from '../assets/hero3.png'
+import hero4 from '../assets/hero4.png'
+import hero5 from '../assets/hero5.png'
+import hero6 from '../assets/hero6.png'
+// import hero7 from '../assets/hero7.jpg'
+import hero8 from '../assets/hero8.png'
+import hero9 from '../assets/hero9.png'
+import hero10 from '../assets/hero10.png'
+import hero11 from '../assets/hero11.png'
 
-const carouselImages = [hero1, hero2, hero3, hero4, hero5, hero6, hero7, hero8]
+const carouselImages = [
+  hero1,
+  hero2,
+  hero3,
+  hero4,
+  hero5,
+  hero6,
+  hero8,
+  hero9,
+  hero10,
+  hero11,
+]
 
 const Carousel = () => {
   const [image, setImage] = useState(carouselImages)
@@ -52,16 +66,8 @@ const Carousel = () => {
             <img
               src={image}
               alt={name}
-              className='person-img mix-blend-overlay'
+              className='person-img mix-blend-overlay object-fit'
             />
-            <div className='p-24 text-center mt-30 absolute inset-0'>
-              <h1 className='text-secondary text-6xl font-bold capitalize '>
-                hello greeting
-              </h1>
-              <h2 className='text-accent text-3xl font-light mt-5'>
-                hope this works
-              </h2>
-            </div>
           </article>
         )
       })}
