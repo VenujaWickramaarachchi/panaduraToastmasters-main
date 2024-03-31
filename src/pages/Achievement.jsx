@@ -1,4 +1,4 @@
-import { Hero, MemberCompletion } from '../components'
+import { Contests, Hero, MemberCompletion } from '../components'
 import InfiniteMovingCards from '../components/InfiniteMovingCards'
 import { ExcoCard } from '../features'
 
@@ -35,7 +35,7 @@ const Achievement = () => {
           aria-label='Contests'
         />
         <div role='tabpanel' className='tab-content p-10'>
-          Tab content 3
+          <Contests />
         </div>
       </div>
     </section>
