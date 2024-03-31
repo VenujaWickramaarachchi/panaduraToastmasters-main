@@ -3,8 +3,7 @@ import mehansa from '../assets/level1/MEHANSA.png'
 import parami from '../assets/level1/PARAMI.png'
 import venuja from '../assets/level1/VENUJA.png'
 import shehani from '../assets/level4/SHEHANI 1.png'
-
-const MemberAchievements = () => {
+const MemberCompletion = () => {
   return (
     <main className='grid grid-rows-2 gap-10'>
       <div>
@@ -33,4 +32,4 @@ const MemberAchievements = () => {
     </main>
   )
 }
-export default MemberAchievements
+export default MemberCompletion

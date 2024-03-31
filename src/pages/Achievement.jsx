@@ -1,4 +1,4 @@
-import { Hero, MemberAchievements } from '../components'
+import { Hero, MemberCompletion } from '../components'
 import InfiniteMovingCards from '../components/InfiniteMovingCards'
 import { ExcoCard } from '../features'
 
@@ -24,7 +24,7 @@ const Achievement = () => {
           checked
         />
         <div role='tabpanel' className='tab-content py-20'>
-          <MemberAchievements />
+          <MemberCompletion />
         </div>
 
         <input
