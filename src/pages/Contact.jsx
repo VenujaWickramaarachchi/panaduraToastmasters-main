@@ -8,7 +8,7 @@ const Contact = () => {
               Contact <span className='section-title-span'>us</span>
             </h1>
           </div>
-          <div className='skeletonCustom p-10 w-[20rem] md:w-[40rem] grid m-auto'>
+          <div className='skeletonCustom p-10 min-w-[20rem] md:w-[40rem] grid m-auto'>
             <form action='' className='m-auto  grid h-full w-full'>
               <label className='input input-bordered flex items-center gap-2 glass'>
                 Name

@@ -14,12 +14,14 @@ const Footer = () => {
 
         <p className='font-bold text-[1.25rem] text-accent'>
           Panadura Toastmasters Club <br />
-          We Create Leaders
         </p>
+        <span className='text-sm text-white '>
+          Courage | Confidence | Commitment
+        </span>
       </aside>
-      <nav>
+      <div>
         <SocialIcons />
-      </nav>
+      </div>
       <p>Copyright © 2024 - All right reserved</p>
     </footer>
   )

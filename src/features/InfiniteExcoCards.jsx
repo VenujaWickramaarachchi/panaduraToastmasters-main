@@ -19,14 +19,14 @@ const InfiniteExcoCards = ({ image, title, description, name }) => {
             exit={{ opacity: 0 }}
           >
             <div className='absolute bg-black pointer-events-none opacity-50 h-full w-full'></div>
-            <motion.h1
+            {/* <motion.h1
               className='bg-white font-semibold text-sm z-10 px-3 py-2 rounded-full flex items-center gap-[.5ch] hover:opacity-75'
               initial={{ y: 10 }}
               animate={{ y: 0 }}
               exit={{ y: 10 }}
             >
               <span>read more</span>
-            </motion.h1>
+            </motion.h1> */}
           </motion.div>
         )}
       </AnimatePresence>

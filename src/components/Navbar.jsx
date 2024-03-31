@@ -3,17 +3,16 @@ import { NavLink } from 'react-router-dom'
 import NavLinks from './NavLinks'
 import { SocialIcons } from '../features'
 
+import logo from '../assets/logo.png'
+
 const Navbar = () => {
   return (
-    <nav className='bg-black/20 shadow-sm shadow-primary transition duration-600 ease-in-out hover:shadow-md hover:shadow-primary/50 '>
+    <nav className='bg-secondary shadow-sm shadow-primary transition duration-600 ease-in-out hover:shadow-md hover:shadow-primary/50 '>
       <div className='navbar align-element  '>
         <div className='navbar-start '>
           {/* TITLE */}
-          <NavLink
-            to='/'
-            className='hidden md:flex btn btn-accent text-3xl items-center '
-          >
-            PTM
+          <NavLink to='/' className='hidden md:flex  text-3xl items-center '>
+            <img src={logo} alt='logo' className='w-[5rem] ' />
           </NavLink>
           {/* DROPDOWN */}
           <div className='dropdown'>
