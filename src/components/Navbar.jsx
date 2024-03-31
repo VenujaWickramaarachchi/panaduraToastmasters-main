@@ -11,17 +11,21 @@ const Navbar = () => {
       <div className='navbar align-element  '>
         <div className='navbar-start '>
           {/* TITLE */}
-          <NavLink to='/' className='hidden md:flex  text-3xl items-center '>
+          <NavLink
+            to='https://www.toastmasters.org/'
+            target='blank'
+            className='hidden md:flex  text-3xl items-center '
+          >
             <img src={logo} alt='logo' className='w-[5rem] ' />
           </NavLink>
           {/* DROPDOWN */}
-          <div className='dropdown'>
+          <div className='dropdown text-white'>
             <label tabIndex={0} className='btn btn-ghost md:hidden'>
               <FaBarsStaggered className='h-6 w-6 ' />
             </label>
             <ul
               tabIndex={0}
-              className='menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-200 rounded-box w-52'
+              className='menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-accent rounded-box w-52 bg'
             >
               <NavLinks />
             </ul>

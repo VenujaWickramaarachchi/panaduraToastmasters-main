@@ -32,7 +32,7 @@ const Hero = () => {
       <div className='hidden md:flex   '>
         <Carousel />
       </div>
-      <div className='p-24 text-center  absolute top-[50] left-[50]   '>
+      <div className='p-24 text-center  absolute top-[50] left-[50] z-10  '>
         <h1 className='text-accent text-6xl font-bold capitalize '>
           Welcome to Panadura Toastmasters Club
         </h1>
@@ -45,7 +45,7 @@ const Hero = () => {
         <img
           src={hero1}
           alt=''
-          className='w-full h-full object-cover absolute mix-blend-overlay '
+          className='w-full h-full object-cover absolute '
         />
       </div>
     </section>
