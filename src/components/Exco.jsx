@@ -6,7 +6,10 @@ const Exco = () => {
     <section>
       <div className='section-title'>
         <h1>
-          Meet Our <span className='section-title-span'>exco</span>
+          Meet Our{' '}
+          <span className='section-title-span'>
+            executive committee members
+          </span>
         </h1>
       </div>
       <div className='h-[25rem]'>

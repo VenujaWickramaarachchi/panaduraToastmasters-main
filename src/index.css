@@ -339,7 +339,7 @@ Common css
 */
 
 .section-title {
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: var(--letterSpacing);
   color: var(--grey);
@@ -347,6 +347,11 @@ Common css
   margin-top: -2.5rem;
   margin-left: auto;
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .section-title {
+    font-size: 3rem;
+  }
 }
 .section-title:hover {
 }

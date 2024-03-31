@@ -8,7 +8,7 @@ export const excoData = [
     name: 'Pamesha Peiris',
     title: 'President',
     description:
-      'Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache.',
+      'I work as a Digital Marketing Executive at Spa Ceylon Luxury Aurveda. My friends know me as a foodie',
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const excoData = [
     name: 'Malindu Batheegama',
     title: 'VP Education',
     description:
-      'Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache.',
+      'I am an Electronic Engineer by profession and an interesting fact about me is that I am an extroverted introvert',
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ export const excoData = [
     name: 'Ranudi Kulathunga',
     title: 'VP Membership',
     description:
-      'Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache.',
+      'A BBA undergraduate at the University of Colombo here! I’m well known for having bucket loads of energy in a small body',
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ export const excoData = [
     name: 'Venuja Wickramarachchi',
     title: 'VP Public Relations',
     description:
-      'Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache.',
+      'You’re looking at an Undergraduate of BIT at UCSC. A funny fact about me is that I am funny without trying to be funny',
   },
   {
     id: 5,
@@ -44,7 +44,7 @@ export const excoData = [
     name: 'Disara Abeywickrama',
     title: 'Secreatary',
     description:
-      'Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache.',
+      'I am an English Lecturer. One of my hidden talents, according to my mother, is that I can imitate others well.',
   },
   {
     id: 6,
@@ -53,7 +53,7 @@ export const excoData = [
     name: 'Dilshan Madushanka',
     title: 'Treasurer',
     description:
-      'Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache.',
+      'I work as a Finance Manager in a Dutch Company and I have a secret elixir which helps me to look and stay young',
   },
   {
     id: 7,
@@ -62,6 +62,6 @@ export const excoData = [
     name: 'Seraan Aponso',
     title: 'Seargent at Arms',
     description:
-      'Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache.',
+      'I am a final year Software Engineering student. A funny thing about me: I am only funny when there are people around',
   },
 ]

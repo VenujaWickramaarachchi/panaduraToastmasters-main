@@ -34,10 +34,10 @@ const Hero = () => {
       </div>
       <div className='p-24 text-center  absolute top-[50] left-[50]   '>
         <h1 className='text-secondary text-6xl font-bold capitalize '>
-          hello greeting
+          Welcome to Panadura Toastmasters Club
         </h1>
-        <h2 className='text-accent text-3xl font-light mt-5'>
-          hope this works
+        <h2 className='text-accent text-3xl font-light mt-5 capitalize'>
+          courage confidence commitment
         </h2>
       </div>
 
