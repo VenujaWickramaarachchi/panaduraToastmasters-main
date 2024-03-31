@@ -9,10 +9,10 @@ const Gallery = () => {
           <span className='section-title-span'>Panadura Toastmasters ?</span>
         </h1>
       </div>
-      <div className='grid place-items-center min-w-[400px] bg-primary h-[400px]'>
+      <div className='grid place-items-center min-w-[368px] bg-primary h-[400px]'>
         <iframe
           src='https://drive.google.com/file/d/1AokgDtgqQEXwJh_60ezMoCF2yldJm3x6/preview '
-          width='470'
+          width='368'
           height='314'
           allowFullScreen
           className='min-w-[390px] md:w-full md:h-full'
