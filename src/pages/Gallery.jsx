@@ -6,7 +6,7 @@ const Gallery = () => {
       <div className='section-title'>
         <h1>
           Why
-          <span className='section-title-span'>Panadura Toastmasters ?</span>
+          <span className='section-title-span'> Panadura Toastmasters ?</span>
         </h1>
       </div>
       <div className='grid place-items-center min-w-[368px] bg-primary h-[400px]'>

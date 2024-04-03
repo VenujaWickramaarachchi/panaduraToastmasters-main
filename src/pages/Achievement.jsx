@@ -1,4 +1,9 @@
-import { Contests, Hero, MemberCompletion } from '../components'
+import {
+  ClubAhievements,
+  Contests,
+  Hero,
+  MemberCompletion,
+} from '../components'
 import InfiniteMovingCards from '../components/InfiniteMovingCards'
 import { ExcoCard } from '../features'
 
@@ -13,7 +18,9 @@ const Achievement = () => {
           className='tab  text-xl  hover:text-secondary transition-all'
           aria-label='Club Achievements'
         />
-        <div role='tabpanel' className='tab-content p-10'></div>
+        <div role='tabpanel' className='tab-content p-10'>
+          <ClubAhievements />
+        </div>
 
         <input
           type='radio'

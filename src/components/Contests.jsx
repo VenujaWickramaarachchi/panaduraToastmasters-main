@@ -2,7 +2,7 @@ import area from '../assets/humorous-evaluation/area/Untitled-1.png'
 import evaluation from '../assets/humorous-evaluation/club contest/evaluation.png'
 import humorous from '../assets/humorous-evaluation/club contest/humorous.png'
 import division from '../assets/humorous-evaluation/divison/division.png'
-const MemberCompletion = () => {
+const Contest = () => {
   return (
     <main className='grid grid-rows-2 gap-10 py-10'>
       <div>
@@ -42,4 +42,4 @@ const MemberCompletion = () => {
     </main>
   )
 }
-export default MemberCompletion
+export default Contest
